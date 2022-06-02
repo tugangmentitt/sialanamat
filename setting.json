@@ -1,5 +1,5 @@
 {
-  "name-web":"STACKOVERFLOW MASKODING",
+  "name-web":"Belajar Bareng",
   "author":"MASKODING",
   "remove-comment-html":true,
   "target":"https://kbbi.web.id/",
@@ -20,14 +20,14 @@
   ],
   "costom-element-remove":[
     {
-      "target":"stackoverflow.com",
+      "target":"brainly.co.id",
       "element-remove-selector":[
         ".js-dismissable-hero",
         ".lazy-loading"
       ],
       "replace-string":[
         {
-          "target":"https://kbbi.web.id/",
+          "target":"https://brainly.co.id/",
           "replace":"${nameWeb}"
         }
       ]
